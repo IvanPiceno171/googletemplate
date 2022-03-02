@@ -1,0 +1,68 @@
+.header{
+    display: inline;
+}
+.right{
+    float: right;
+}
+.user{
+    background-color: rgba(11, 8, 236, 0.685);
+    height: 5px;
+    width: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+align-items: center;
+height: 55vh;
+width: 100%;
+}
+.google{
+margin-top: 300px;
+    display: flex;
+    width: 300px;
+    height: 200px;
+    
+}
+
+.mid{
+    background-color: rgba(0, 0, 0, 0.301);
+    height: 32vh;
+}
+
+.search1{
+    display: flex;
+    justify-content: center;
+    
+}
+.linkcenter{
+    display: flex;
+justify-content: center;
+padding: 25px;
+}
+.links{
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    width: 10vw;
+    border: 2px solid black;
+}
+
+.footer{
+    height: 13vh;
+}
+
+.carbon{
+    display: flex;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+}
