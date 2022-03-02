@@ -6,9 +6,15 @@
 }
 .user{
     background-color: rgba(11, 8, 236, 0.685);
-    height: 5px;
-    width: 10px;
+border-radius: 15px;
     color: rgb(255, 255, 255);
+    font-size: 29px;
+}
+.left > a{
+    padding: 10px;
+}
+.right > a{
+    padding: 10px;
 }
 
 .top{
@@ -37,11 +43,19 @@ margin-top: 300px;
     justify-content: center;
     
 }
+
+.search1 > input{
+    border: 5px solid rgb(14, 9, 9);
+    width: 510px;
+    border-radius: 15px;
+}
 .linkcenter{
     display: flex;
 justify-content: center;
 padding: 25px;
 }
+
+
 .links{
     background-color: #f44336;
     color: white;
@@ -54,7 +68,11 @@ padding: 25px;
 }
 
 .footer{
-    height: 13vh;
+    background-color: rgba(0, 0, 0, 0.514);
+}
+
+.rightfoot>a{
+    padding: 10px;
 }
 
 .carbon{
@@ -65,4 +83,11 @@ a{
     text-decoration: none;
     color: black;
     font-size: larger;
+}
+
+.leftfoot{
+    float: right;
+}
+.leftfoot>a{
+    padding: 10px;
 }
